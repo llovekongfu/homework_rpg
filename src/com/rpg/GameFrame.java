@@ -31,7 +31,7 @@ public class GameFrame extends JFrame implements KeyListener, ActionListener, Mo
     private int treasureNum;
     private JButton driveButton = new JButton();
     private JButton darkButton = new JButton();
-    private Font tfont = new Font("??", 1, 30);
+    private Font tfont = new Font("宋体", 1, 30);
     private JLabel treasureNumLabel = new JLabel();
 
     private boolean isDriveDark = false;
@@ -113,7 +113,7 @@ public class GameFrame extends JFrame implements KeyListener, ActionListener, Mo
         timer = new Timer(1000, keepTime);
         time = new JLabel("00:00:00");
         time.setForeground(Color.RED);
-        time.setFont(new Font("??", 1, 25));
+        time.setFont(new Font("宋体", 1, 25));
         time.setBounds(160, 410, 200, 20);
         note.add(time);
         timer.start();
